@@ -180,8 +180,96 @@ p {
   -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
 }
 
+.react {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
 
+.react:hover{
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
 
+.html {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.html:hover {
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+.node {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.node:hover {
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+.native {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.native:hover {
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+.mongo{
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.mongo:hover{
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+.redux {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.redux:hover{
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+.tail{
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%); 
+  transition: 300ms ease-in-out;
+}
+
+.tail:hover{
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
 
 .tools-li p {
   padding: 0;
