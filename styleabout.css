@@ -100,7 +100,7 @@ p {
   width: 300px;
   height: 0.2px;
   margin-left: 20px;
-  background-color: rgb(110, 110, 110);
+  background-color: #0f0;
 }
 
 .line::after{
@@ -161,10 +161,9 @@ p {
 
 .tools-li {
 	list-style: none;
-	background-image: url("./gastonzpng.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 40px;
+	background-size: 25px;
 }
 
 .js {
@@ -181,7 +180,7 @@ p {
 }
 
 .react {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/react.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -194,7 +193,7 @@ p {
 }
 
 .html {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons//css.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -207,7 +206,7 @@ p {
 }
 
 .node {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/node-js.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -220,7 +219,7 @@ p {
 }
 
 .native {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/react.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -233,7 +232,7 @@ p {
 }
 
 .mongo{
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/mongodb.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -246,7 +245,7 @@ p {
 }
 
 .redux {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/redux.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
@@ -259,7 +258,7 @@ p {
 }
 
 .tail{
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png");
+  background-image: url("./icons/tailwind-css.svg");
   filter: grayscale(100%); 
   -webkit-filter: grayscale(100%); 
   transition: 300ms ease-in-out;
