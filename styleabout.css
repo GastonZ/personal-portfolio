@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-container {
+  height: 100vh;
+  background-color: #111;
+}
+
+/* Nav */
+
+.zona {
+  display: flex;
+  justify-content: center;
+}
+
+.zona ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  color: #f0ffff;
+  padding-left: 25px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+p {
+  color: red;
+}
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  color: #f0ffff;
+  --animation-color: #0f0;
+  --fs-size: 1em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
