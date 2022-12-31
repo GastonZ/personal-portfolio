@@ -1,11 +1,14 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-container {
   height: 100vh;
   background-color: #111;
+  padding: 0 150px;
+  z-index: -2;
 }
 
 /* Nav */
@@ -27,9 +30,6 @@ ul li {
   font-size: 24px;
 }
 
-p {
-  color: red;
-}
 
 .button {
   margin: 0;
@@ -70,4 +70,82 @@ p {
 .button:hover .hover-text {
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+/* About me */
+
+.about-me {
+  padding-top: 70px;
+}
+
+h1 {
+  color: #f0ffff;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+p {
+  padding-right: 20px;
+  margin-top: 20px;
+  color: #f0ffff;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.line {
+  content-visibility: hidden;
+  display: block;
+  position: relative;
+  top: 20px;
+  width: 300px;
+  height: 0.2px;
+  margin-left: 20px;
+  background-color: rgb(110, 110, 110);
+}
+
+.line::after{
+  content: "";
+}
+
+.about-title {
+  display: flex;
+}
+
+.about-me-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img{
+  background-color: rgba(17, 25, 40, 0);
+  filter: grayscale(100%); /*IE6-9*/
+  -webkit-filter: grayscale(100%); /*Chrome 19+ & Safari 6+*/
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+}
+
+.about-img:hover{
+  transition: 0s;
+  filter: grayscale(0%); /*IE6-9*/
+  -webkit-filter: grayscale(0%); /*Chrome 19+ & Safari 6+*/
+}
+
+
+.wrapper {
+  z-index: 0;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-bottom: 2px solid #0f0;
+  border-right: 2px solid #0f0;
+  border-radius: 10px;
+  transition: 250ms ease-in-out;
+}
+
+.about-img-container:hover .wrapper {
+  margin-left: 15px;
+  margin-top: 15px;
 }
