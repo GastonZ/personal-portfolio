@@ -146,6 +146,11 @@ p {
 }
 
 .about-img-container:hover .wrapper {
+  border-radius: 15px;
+}
+
+
+.about-img-container:hover .wrapper {
   margin-left: 15px;
   margin-top: 15px;
 }
