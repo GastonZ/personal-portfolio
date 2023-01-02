@@ -1,13 +1,113 @@
-body {
-    height: 100vh;
-    background-color: #333;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.zona {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .zona ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  ul li {
+    color: #f0ffff;
+    padding-left: 25px;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  
+  .button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    color: #f0ffff;
+    --animation-color: #0f0;
+    --fs-size: 1em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  main {
+    min-height: 100vh;
+    background-color: #111;
+    padding: 0 150px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .projects-section {
+    padding: 50px;
+  }
+
+  .projects-section>h2 {
+    color: #f0ffff;
+  }
+
+  .project-main-box {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  }
 
-h1 {
-    font-size: 4rem;
+  .project-info-box >h2 {
     color: #f0ffff;
-}
+    text-align: right;
+    padding-bottom: 50px;
+    margin-right: 40px;
+  }
+
+  .over-project-info {
+    position: relative;
+    padding: 30px;
+    right: 40px;
+    background: rgb(50, 49, 49);
+    border-radius: 5px;
+  }
+
+  .over-project-info>p {
+    color: #f0ffff;
+  }
+
+  .project-preview {
+    border-radius: 5px;
+    transition: 500ms ease-in-out;
+  }
+
+  .project-preview:hover {
+    box-shadow: rgba(153, 150, 150, 0.25) 0px 54px 55px, rgba(153, 150, 150, 0.12) 0px -12px 30px, rgba(141, 139, 139, 0.12) 0px 4px 6px, rgba(137, 134, 134, 0.17) 0px 12px 13px, rgba(135, 133, 133, 0.09) 0px -3px 5px;
+  }
